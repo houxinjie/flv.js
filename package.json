@@ -24,6 +24,11 @@
     "webworkify": "^1.4.0"
   },
   "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-plugin-array-includes": "^2.0.3",
+    "babel-plugin-transform-object-assign": "^6.8.0",
+    "babel-polyfill": "^6.16.0",
     "babel-preset-es2015": "^6.18.0",
     "babelify": "^7.3.0",
     "browserify": "^13.1.1",
@@ -39,7 +44,8 @@
     "http-server": "^0.9.0",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
-    "watchify": "^3.7.0"
+    "watchify": "^3.7.0",
+    "webpack": "^1.13.3"
   },
   "author": "zheng qian <xqq@xqq.im>",
   "license": "Apache-2.0"
